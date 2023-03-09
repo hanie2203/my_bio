@@ -1,0 +1,156 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-image: url('Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.desc {
+    font-family: Arial;
+    font-weight: none;
+}
+
+.profile-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main {
+    border-width: 2px;
+    border-color: black;
+    padding: 35px;
+    background-color: rgb(220, 200, 200);
+    border-radius: 50px;
+}
+
+.profile-img {
+    min-width: 100px;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.img {
+    margin: auto;
+}
+
+.line {
+    text-align: center;
+    font-weight: 100px;
+    font-size: 25px;
+    font-family: Arial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+.info {
+    min-width: 150px;
+    width: 100%;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 300%;
+    margin: auto;
+}
+
+.btn-spacing {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+}
+
+.desc {
+    font-size: 200%;
+    color: grey;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    opacity: 0.9;
+    transition: opacity 0.15s;
+    border-style: none;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-name {
+    margin: auto;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.btn-icon {
+    width: 80%;
+    margin: auto;
+    margin-left: 25px;
+    padding: auto;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+.vid-div {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 560px 1fr;
+}
+
+.video {
+    height: 300px;
+    width: 100%;
+}
+
+.abt,
+.abt1 {
+    font-size: 200%;
+    color: grey;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Arial;
+    font-weight: none;
+}
+
+.abt1 {
+    text-align: center;
+}
+
+.wish {
+    font-size: 150%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
